@@ -106,8 +106,8 @@ posts = [
   }
 ]
 
-# p posts
-# p posts[0]
+ p posts
+ p posts[0]
 
 
 # The code snippet above shows an Array with 2 elements. Each element in the Array is a 
@@ -119,3 +119,32 @@ posts = [
 # YOU DO: Create an array of at least 3 EMAIL Hashes, using the same 
 # key-value pairs you used in your email Hash above.
 # Then, print the email Array to the Terminal.
+
+emails = [
+  {
+    sender: "Michael",
+    subject_line: "Resignation",
+    body: "To whom it may concern",
+    recipients: ["Joe", "Patrick"],
+    time_sent: "18:00:00 08/06/23", 
+    read_receipt: true
+  },
+  {
+    sender: "Michael",
+    subject_line: "Application",
+    body: "I'd like to contact you",
+    recipients: "Sir or Madam",
+    time_sent: "09:00:00 03/30/24", 
+    read_receipt: true
+  },
+  {
+    sender: "Michael",
+    subject_line: "Acceptance",
+    body: "I'd like to inform you",
+    recipients: ["New Boss 1", "New Boss 2"],
+    time_sent: "10:00:00 04/03/24", 
+    read_receipt: true
+  }
+]
+
+puts emails
